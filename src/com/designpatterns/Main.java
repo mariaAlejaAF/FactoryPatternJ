@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("A little message before");
+
         EnemyShipFactory factoryVonFeinde = new EnemyShipFactory();
 
         Scanner sc = new Scanner(System.in);
